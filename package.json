@@ -1,0 +1,35 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1",
+    "mixitup": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vika-mal/MNTN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vika-mal/MNTN/issues"
+  },
+  "homepage": "https://github.com/vika-mal/MNTN#readme",
+  "description": ""
+}
