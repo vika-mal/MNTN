@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MNTN</title>
+    <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -36,6 +36,31 @@
                 </nav>
                 <div class="header__account">
                     <a class="header__account-link" href="#">Account</a>
+                </div>
+                <div class="modal">
+                    <div class="modal__wrap">
+                        <form id="form">
+                            <div class="form__body">
+                                <button class="form__close">&times;</button>
+                                <div class="form__item">
+                                    <label class="form__label" for="formLogin">Логин:</label>
+                                    <input class="form__input" type="text" id="formLogin">
+                                </div>
+                                <div class="form__item">
+                                    <label class="form__label" for="formPass">Пароль:</label>
+                                    <a href="#" class="form__input-pass">Забыли пароль?</a>
+                                    <input class="form__input" type="password" id="formPass">
+                                </div>
+                            </div>
+                            <div class="form__footer">
+                                <div class="form__item-checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox">
+                                    <label class="checkbox__label" for="checkbox">Запомнить меня</label>
+                                </div>
+                                <button class="form__footer-btn">Войти</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <button class="header__btn">
 
